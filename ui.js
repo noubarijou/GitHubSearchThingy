@@ -44,6 +44,8 @@ class UI {
             <span class="badge badge-secondary">Watchers: ${repo.watchers_count}</span>
             <span class="badge badge-success">Forks: ${repo.forms_count}</span>
           </div>
+          </div>
+          </div>
           `;
     });
     document.getElementById('repos').innerHTML = output;
